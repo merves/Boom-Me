@@ -8,9 +8,10 @@
     tools:context=".ProfilActivity">
 
     <pl.droidsonroids.gif.GifImageView
-        android:layout_width="341dp"
-        android:layout_height="197dp"
-        android:src="@drawable/flappybalon"
+        android:id="@+id/orta_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ortabtn"
         android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
